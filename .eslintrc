@@ -1,0 +1,49 @@
+{
+  "ecmaFeatures": {
+    "jsx": true,
+    "modules": true
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "fix": true,
+  "parser": "babel-eslint",
+  "rules": {
+    "semi": 2,
+    "no-extra-semi": 2,
+    "space-infix-ops": "error",
+    "max-len": ["error", 90],
+    "keyword-spacing": ["error", { "after": true, "before": true }],
+    "indent": ["error", 2],
+    "no-unused-vars": [2, { "caughtErrors": "all" }],
+    "no-undef": [2],
+    "quotes": [2, "single"],
+    "strict": [2, "never"],
+    "babel/generator-star-spacing": 1,
+    "babel/new-cap": 1,
+    "babel/arrow-parens": 1,
+    "babel/no-await-in-loop": 1,
+    "react/jsx-uses-react": 2,
+    "react/jsx-uses-vars": 2,
+    "react/react-in-jsx-scope": 2,
+    "no-var": 1,
+    "no-debugger": 1,
+    "no-console": 0,
+    "no-restricted-syntax": 1,
+    "vars-on-top": 1,
+    "comma-dangle": 1,
+    "no-use-before-define": 0
+  },
+  "plugins": [
+    "babel",
+    "react"
+  ],
+  "settings": {
+    "import/resolver": {
+      "webpack": {
+        config: './webpack.config.dev.js'
+      }
+    }
+  }
+}
