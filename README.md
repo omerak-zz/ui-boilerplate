@@ -6,7 +6,7 @@ The packages I used can be replaced to other packages in their types. Possibly t
 [React](https://github.com/facebook/react) and [Director](https://github.com/flatiron/director) are the main packages for the ui part. I used webpack for the module bundling and wrote css in [CSS Modules](https://github.com/css-modules/css-modules) way.
 
 
-##### Commands
+#### Commands
 
 ```
 $ npm install
@@ -16,7 +16,7 @@ $ npm run build
 
 
 
-## Router [Director](https://github.com/flatiron/director)
+#### Router
 
 * You should add url name and pattern to urls file like that.
 
@@ -70,7 +70,7 @@ You can use your urls in your view library like this `href={ urls.urlName.url() 
 
  
 
-## Structure
+#### Structure
 
     .
     ├── ...
