@@ -2,7 +2,9 @@
 
 I used the variation of this structure in my last 4 projects.
 
-The packages I used can be replaced the other packages in their types. Possibly the implentation would change.
+The packages I used can be replaced to other packages in their types. Possibly the implentation would change.
+[React](https://github.com/facebook/react) and [Director](https://github.com/flatiron/director) are the main packages for the ui part. I used webpack for the module bundling and wrote css in [CSS Modules](https://github.com/css-modules/css-modules) way.
+
 
 ##### Commands
 
@@ -12,15 +14,6 @@ $ npm start
 $ npm run build
 ```
 
-
-## View Library - [React](https://github.com/facebook/react)
-
-...
-
-
-## CSS Metotdology [CSS Modules](https://github.com/css-modules/css-modules)
-
-...
 
 
 ## Router [Director](https://github.com/flatiron/director)
@@ -75,10 +68,6 @@ Router({ // eslint-disable-line
 You can use your urls in your view library like this `href={ urls.urlName.url() }` or `href={ urls.someOtherComponentDetail.url(2, 42) }`
 
 
-
-## Tooling [Webpack]()
-
-...
  
 
 ## Structure
